@@ -1,0 +1,22 @@
+Git Workflow for TaskApp Project
+
+1. Initialize Git inside TaskApp folder which creates a hidden .git folder for tracking
+   git init
+
+2. Add all project files to staging
+   git add .
+
+3. Commit changes with a descriptive message
+   git commit -m "Initial commit with signup, mail, and list features"
+
+4. Connect to remote GitHub repository
+   git remote add origin https://github.com/username/repository.git
+
+5. Push changes to main branch
+   git branch -M main
+   git push -u origin main
+
+Future updates:
+   git add .
+   git commit -m "Update project files"
+   git push

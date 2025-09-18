@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fally FashionHub Contest Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: #fff;
+            padding: 30px 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 320px;
+            text-align: center;
+        }
+        h2 { margin-bottom: 20px; color: #333; }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 14px;
+            text-align: left;
+            color: #555;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+        }
+        input:focus {
+            border-color: #6a5acd;
+            box-shadow: 0 0 4px rgba(106, 90, 205, 0.3);
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #6a5acd;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        button:hover { background: #5746c2; }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>✨Join the Fally FashionHub Contest✨</h2>
+        <form action="mail.php" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" name="phone" required>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" min="10" max="100" required>
+
+            <button type="submit">Join Contest</button>
+        </form>
+    </div>
+</body>
+</html>
