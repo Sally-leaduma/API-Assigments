@@ -10,7 +10,7 @@ Git Workflow for TaskApp Project
    git commit -m "Initial commit with signup, mail, and list features"
 
 4. Connect to remote GitHub repository
-   git remote add origin https://github.com/username/repository.git
+   git remote add origin https://github.com/Sally-leaduma/API-Assigments.git
 
 5. Push changes to main branch
    git branch -M main
